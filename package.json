@@ -1,13 +1,14 @@
 {
-    "name": "{{ project-name }}",
+    "name": "dody-cors",
     "version": "1.0.0",
     "description": "A CORS proxy running in a worker",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "format": "prettier --write '**/*.{js,css,json,md}'"
+        "format": "prettier --write '**/*.{js,css,json,md}'",
+        "deploy": "npx wrangler deploy"
     },
-    "author": "{{ authors }}",
+    "author": "dodycode",
     "license": "MIT",
     "devDependencies": {
         "husky": "^2.1.0",
